@@ -1,6 +1,17 @@
 
 Code for segmenting spatial transcriptomics data.
 
+# Synchronize files from the remote server to the local directory
+rsync -a x-shaswata@anvil.rcac.purdue.edu:/home/x-shaswata/scratch/spatial_transcriptomics/Cytoplasm/test cellpose_data
+
+# Train a Cellpose model on the Nucleus dataset using GPU, with specified parameters
+python -m cellpose --train --dir Nucleus/ --use_gpu --check_mkl --pretrained_model cyto --chan 2 --chan2 1 --diameter 300 --train --n_epochs 100 --verbose --mask_filter _seg.npy
+
+# Train a Cellpose model on the Cytoplasm dataset using GPU, with specified parameters and test on the Cytoplasm test dataset
+python -m cellpose --use_gpu --train --dir Cytoplasm/ --test_dir test/Cytoplasm/ --pretrained_model cyto3 --chan 2 --chan2 1 --learning_rate 0.1 --weight_decay 0.0001 --n_epochs 100 --mask_filter _seg.npy --verbose
+
 ![Segmented Image](contour.png)
 
 `create_mask.py` can help generate the masks once the segmentation is complete.
+
+
