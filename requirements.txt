@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+tqdm
+trackpy
+scikit-image
+tifffile
+opencv-python
+natsort
+cellpose
+dask
+dask-image
