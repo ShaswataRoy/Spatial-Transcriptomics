@@ -15,14 +15,6 @@ Code for segmenting extracting spots from spatial transcriptomics data (smFISH).
    source venv/bin/activate
    ```
 
-## Directory Structure
-
-- `src/`: Contains Python scripts for segmentation, mask creation, and spot detection.
-- `data/`: Contains raw and processed data.
-- `models/`: Stores Cellpose models.
-- `scripts/`: Contains shell scripts for running jobs.
-- `notebooks/`: (Optional) Jupyter notebooks for analysis.
-
 ## Running the Code
 
 1. **Generate masks**:
