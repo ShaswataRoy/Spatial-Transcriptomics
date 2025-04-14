@@ -12,6 +12,7 @@ python -m cellpose --use_gpu --train --dir Cytoplasm/ --test_dir test/Cytoplasm/
 
 ![Segmented Image](contour.png)
 
-`create_mask.py` can help generate the masks once the segmentation is complete.
+`create_mask.sh` - generates the masks
+`spot_detection.sh` - extracts the spots data once the masks have been generated
 
 
