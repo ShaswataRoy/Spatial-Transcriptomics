@@ -1,6 +1,14 @@
 # Spatial Transcriptomics
 
+![License](https://img.shields.io/github/license/username/repository)
+![Issues](https://img.shields.io/github/issues/username/repository)
+![Stars](https://img.shields.io/github/stars/username/repository)
+
 Code for segmenting extracting spots from spatial transcriptomics data (smFISH).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Setup Instructions
 
