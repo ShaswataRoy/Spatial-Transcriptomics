@@ -1,8 +1,8 @@
 # Spatial Transcriptomics
 
-![License](https://img.shields.io/github/license/username/repository)
-![Issues](https://img.shields.io/github/issues/username/repository)
-![Stars](https://img.shields.io/github/stars/username/repository)
+![License](https://img.shields.io/github/license/ShaswataRoy/Spatial-Transcriptomics)
+![Issues](https://img.shields.io/github/issues/ShaswataRoy/Spatial-Transcriptomics)
+![Stars](https://img.shields.io/github/stars/ShaswataRoy/Spatial-Transcriptomics)
 
 Code for segmenting extracting spots from spatial transcriptomics data (smFISH).
 
