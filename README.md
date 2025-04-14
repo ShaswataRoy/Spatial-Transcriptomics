@@ -1,6 +1,6 @@
 # Spatial Transcriptomics
 
-Code for segmenting spatial transcriptomics data.
+Code for segmenting extracting spots from spatial transcriptomics data (smFISH).
 
 ## Setup Instructions
 
