@@ -24,6 +24,7 @@ import tifffile as tiff
 import cv2
 import argparse
 import os
+from natsort import natsorted
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
@@ -52,7 +53,7 @@ if __name__=="__main__":
     except:
         print("Chosen experiment not found.")
         exit()
-    seg_files = glob(image_folder+'/*.npy')
+    seg_files = natsorted(glob(image_folder+'/*.npy'))
     n_files = len(seg_files)
     mask = np.zeros((n_files,args.image_size,args.image_size)).astype(np.uint8)
     for i in tqdm(range(n_files)):
