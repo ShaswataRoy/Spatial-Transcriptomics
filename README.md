@@ -28,12 +28,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 1. **Generate masks**:
    Run the following command to generate masks for the experiment:
    ```bash
-   bash scripts/create_mask.sh
+   bash create_mask.sh
    ```
 2. **Detect spots**:
    Run the following command to detect spots in the images:
    ```bash
-   bash scripts/spot_detection.sh
+   bash spot_detection.sh
    ```
 
 ## Dependencies
